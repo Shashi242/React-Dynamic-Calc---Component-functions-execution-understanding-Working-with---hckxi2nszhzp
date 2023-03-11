@@ -9,7 +9,7 @@ const App = () => {
        +
       <input id='input2' onChange={(e) => {setValue2(e.target.value)}}/> 
       
-      <p id='result'>{value1+value2}</p>
+      <p id='result'>{parseInt(value1)+parseInt(value2)}</p>
     </div>
   )
 }
